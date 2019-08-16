@@ -37,7 +37,7 @@ function showCommits() {
     '</strong>' - ' +
     commit.commit.message +
     '</li>'
-  )
+    )
   }`
 
 }
