@@ -1,6 +1,6 @@
 // your code here
 function getRepositories () {
   const req = new XMLHttpRequest();
-  req.open('GET', 'https://api.github.com/users/gitluky/repos');
+  req.open('GET', 'https://api.github.com/users/octocat/repos');
   req.send();
 }
