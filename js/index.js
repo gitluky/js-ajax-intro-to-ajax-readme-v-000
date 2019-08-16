@@ -39,6 +39,6 @@ function showCommits () {
         commit.commit.message +
         '</li>'
     )
-    .join(' ')}</ul>`
+    .join(' ')}</ul>`;
   document.getElementById('commits').innerHTML = commitsList;
 }
