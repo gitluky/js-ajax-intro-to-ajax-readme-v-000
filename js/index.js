@@ -20,7 +20,7 @@ function getRepositories () {
   req.send();
 }
 
-function getCommits(el) {
+function getCommits (el) {
   const name = el.dataset.repo;
   const req = new XMLHttpRequest;
   req.addEventListener('load', showCommits);
@@ -28,7 +28,7 @@ function getCommits(el) {
   req.send();
 }
 
-function showCommits() {
+function showCommits () {
   const commits = JSON.parse(this.responseText);
   const commitsList = `<ul> ${commits
     .map(
